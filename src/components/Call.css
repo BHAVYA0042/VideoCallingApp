@@ -1,0 +1,56 @@
+.call {
+  text-align: center;
+}
+
+.player-container {
+  background-color: aqua;
+  text-align: initial;
+}
+.videos{
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  row-gap: 50px;
+  padding: 5%;
+}
+.local-player-wrapper{
+  margin: auto;
+  align-items: center;
+}
+.remote-player-wrapper{
+  margin: auto;
+  align-items: center;
+}
+.button-group {
+  padding: 20px;
+}
+
+
+
+.call-form {
+  padding: 20px;
+}
+
+input, button {
+  margin-right: 10px;
+}
+.video-player{ 
+  width: 400px; 
+  height: 300px ;
+}
+.controls{
+
+  height:50px;
+  padding:2% 10%;
+  background-color: grey;
+  align-items:center;
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr))
+}
+.buttonIcon{
+  color:red;
+  font-size:40px;
+
+}
+.end-button{
+  background-color:white;
+}
